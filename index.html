@@ -6,8 +6,48 @@
     <link rel="stylesheet" href="src/styles.css" />
     <title>Weather forecast</title>
   </head>
-  <body>
-    <h1>Hello!</h1>
+  <body class="container">
+    <h1>
+      <div class="location" id="location">Perth</div>
+      <div class="temperature" id="temperature">22°C</div>
+
+      <div class="condition" id="condition">
+        <span class="icon" id="icon"> ☁️</span
+        ><span class="discription" id="discription"> Cloudy</span>
+      </div>
+      <div>
+        <span class="min" id="min">L: 15°</span
+        ><span class="max" id="max">H: 29°</span>
+      </div>
+    </h1>
+    <h2>
+      <div class="humidity" id="humidity">Humidity: 25%</div>
+      <div class="wind-speed" id="wind-speed">wind-speed: 25km/h</div>
+    </h2>
+    <hr />
+    <h3>
+      Daily forecast
+      <div id="daily-forecast"></div>
+      <div id="forecast-day"></div>
+      <div id="forecast-icon"></div>
+      <div id="forecast-min"></div>
+      <div id="forecast-max"></div>
+    </h3>
+    <form class="search-form" id="search-form">
+      <input
+        type="search"
+        placeholder="Enter a city..."
+        required
+        class="search-form-input"
+        id="search-form"
+      />
+      <input
+        type="submit"
+        value="search"
+        class="search-button"
+        id="search-button"
+      />
+    </form>
     <script src="src/index.js"></script>
   </body>
 </html>

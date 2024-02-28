@@ -28,6 +28,9 @@ h1 {
 h2 {
   font-style: italic;
 }
+.current-time {
+  opacity: 0.8;
+}
 hr {
   opacity: 0.3;
   color: #feffdf;

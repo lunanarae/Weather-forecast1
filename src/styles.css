@@ -22,15 +22,13 @@ h1 {
 .condition {
   font-size: 50px;
 }
-.min {
+.feels-like {
   opacity: 0.8;
 }
 h2 {
   font-style: italic;
 }
-.current-time {
-  opacity: 0.8;
-}
+
 hr {
   opacity: 0.3;
   color: #feffdf;
@@ -41,6 +39,10 @@ h3 {
 }
 .forecast-min {
   opacity: 0.8;
+}
+.daily-forecast {
+  display: flex;
+  justify-content: space-between;
 }
 
 .search-form-input {

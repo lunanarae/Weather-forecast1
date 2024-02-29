@@ -23,43 +23,41 @@
           <span class="icon" id="icon"> ☁️</span
           ><span class="discription" id="discription"> Cloudy</span>
         </div>
-        <div>
-          <span class="min" id="min">L: 15°</span
-          ><span class="max" id="max"> H: 29°</span>
-        </div>
+        Feels like:
+        <div class="feels-like" id="feels-like"></div>
       </h1>
       <h2>
-        <div class="humidity" id="humidity">Humidity: 25%</div>
-        <div class="wind-speed" id="wind-speed">wind-speed: 25km/h</div>
-        <div class="current-time" id="current-time">Last update :</div>
+        Humidity:
+        <span class="humidity" id="humidity"></span><br />
+        wind-speed:
+        <span class="wind-speed" id="wind-speed"></span><br />
+        Last update:
+        <span class="current-time" id="current-time"></span>
       </h2>
       <hr />
       <h3>
         Daily forecast
         <br />
 
-        <div id="daily-forecast">
-          <div id="forecast-day">Thu</div>
-          <div id="forecast-icon">⭐️</div>
-          <span class="forecast-min" id="forecast-min">12°</span>
-          <span id="forecast-max">29°</span>
-        </div>
+        <div class="daily-forecast" id="daily-forecast"></div>
       </h3>
-      <form class="search-form" id="search-form">
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          required
-          class="search-form-input"
-          id="search-form-input"
-        />
-        <input
-          type="submit"
-          value="search"
-          class="search-button"
-          id="search-button"
-        />
-      </form>
+      <div id="search-form">
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input
+            type="submit"
+            value="search"
+            class="search-button"
+            id="search-button"
+          />
+        </form>
+      </div>
     </div>
     <script src="src/index.js"></script>
   </body>

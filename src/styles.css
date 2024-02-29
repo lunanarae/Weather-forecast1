@@ -41,8 +41,21 @@ h3 {
   opacity: 0.8;
 }
 .daily-forecast {
+  font-size: 18px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.display-temp {
+  text-align: center;
+}
+.forecast-day {
+  text-align: center;
+  font-size: 35px;
+}
+.weather-forecast-icon {
+  max-width: 40px;
+  text-align: center;
 }
 
 .search-form-input {
